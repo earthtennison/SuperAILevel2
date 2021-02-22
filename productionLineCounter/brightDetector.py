@@ -30,7 +30,7 @@ cv2.waitKey(0)
 d = 1
 result = {"Prediction_break": []}
 
-path = r"D:\SuperAILevel2\week4\Denso\test_video"
+path = r"D:\SuperAILevel2\week4"
 day_folder = [f + "\\" + "CtlEquip_10" for f in os.listdir(path) if "." not in f]
 video_list = [v for v in os.listdir(os.path.join(path, day_folder[d])) if ".csv" not in v]
 
@@ -101,4 +101,4 @@ for i in range(5,6):
         result["Prediction_break"].append("No")
 
 result = pd.DataFrame(result)
-result.to_csv("D:\SuperAILevel2\week4\Denso" +"\\" + "result31" + ".csv", index=1)
+result.to_csv("D:\SuperAILevel2\week4" +"\\" + "result31" + ".csv", index=1)
