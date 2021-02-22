@@ -10,4 +10,4 @@ In this project, I have modified some code from [tf-pose-estimation](https://git
 In estimator.py, I have created new function draw_arm, getLength, getAngle
 
 ![](https://github.com/earthtennison/SuperAILevel2/blob/main/GamingPostureDetector/Screenshot%202021-02-23%20015156.png)\
-![]()
+![](https://github.com/earthtennison/SuperAILevel2/blob/main/GamingPostureDetector/Screenshot%202021-02-23%20015222.png)
