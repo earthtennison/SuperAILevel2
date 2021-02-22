@@ -4,8 +4,8 @@ import os, sys
 import numpy as np
 
 frameCount = 0
-path_out = r"D:\SuperAILevel2\week4\Denso\test_cut_video224weeee"
-path_src = r"D:\SuperAILevel2\week4\Denso\test_video"
+path_out = r"D:\SuperAILevel2\week4\test_cut_video224weeee"
+path_src = r"D:\SuperAILevel2\week4\test_video"
 
 d=1 # change vide date
 day_folder = [f + "\\" + "CtlEquip_10" for f in os.listdir(path_src) if "." not in f]
