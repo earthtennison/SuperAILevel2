@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-im = cv2.imread(r"D:\SuperAILevel2\week5\HighwayDOH\ds\0b61415ee77f41a39c9c4140da2476c2\00_F_img.png")
+im = cv2.imread(r"D:\SuperAILevel2\week5\xxx.png")
 print(im.shape)
 # imGray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
 # print(imGray.shape)
