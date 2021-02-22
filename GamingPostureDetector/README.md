@@ -1,5 +1,5 @@
 # Gaming Posture Detector
-First, I want to thank to illdonet to provide wonderful posture estimation code.<br>
+First, I want to thank to illdonet who provide valuable posture estimation code.<br>
 In this project, I have modified some code from [tf-pose-estimation](https://github.com/gsethi2409/tf-pose-estimation)
 
 ##Step by step
