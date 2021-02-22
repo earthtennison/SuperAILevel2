@@ -84,7 +84,7 @@ def rot_y(a):
 
 def sky3D(ds_id, sider, frame, r_x, r_y, r_z):
     class CameraExtrinsic(object):
-        def __init__(self, camera_extrinsic_path="D:\SuperAILevel2\week5\HighwayDOH\set1\camera.csv"):
+        def __init__(self, camera_extrinsic_path="D:\SuperAILevel2\week5\camera.csv"):
             lines = np.loadtxt(camera_extrinsic_path, delimiter=',', dtype=np.str)
             self.cam_extrinsic_by_hash = {
                 self.cam_hash(*line[:2]): (np.float32(line[2:11]).reshape((3, 3)), np.float32(line[11:])) for line in
@@ -163,7 +163,7 @@ def sky3D(ds_id, sider, frame, r_x, r_y, r_z):
     h = []  # col coordinate
     v1 = []  # row coordinate 3d
     v2 = []  # row coordinate 2d
-    im = cv2.imread(r"/ds\0b61415ee77f41a39c9c4140da2476c2\00_L_img.png")
+    im = cv2.imread(r"xxx.png")
 
     ### find skyline
     points = []
@@ -190,7 +190,7 @@ def sky3D(ds_id, sider, frame, r_x, r_y, r_z):
 
     return h_new, v1_new, front
 
-h,v1,_ = sky3D("0b61415ee77f41a39c9c4140da2476c2", 'L',00,0,0,0)
+h,v1,_ = sky3D("xxx", 'L',00,0,0,0)
 
 print(h)
 print(mode(v1))
